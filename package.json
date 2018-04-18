@@ -1,0 +1,19 @@
+{
+  "name": "dr-dom",
+  "version": "0.0.1",
+  "description": "r-dom (React DOM) div wrapper",
+  "main": "index.coffee",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quangv/dr-dom.git"
+  },
+  "author": "Quang Van <quang@absentsoft.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quangv/dr-dom/issues"
+  },
+  "homepage": "https://github.com/quangv/dr-dom#readme"
+}
