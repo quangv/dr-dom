@@ -3,7 +3,7 @@
 This library wraps [r-dom](https://github.com/uber/r-dom), with some added conveniences.
 
 - defaults to `div`
-- convenient `className` as 2nd arg (1st arg if `div`)
+- if next arg isString, assume `className`. (great for working with twitter-bootstrap)
 - idiomatic _r-dom_, very small wrapper.
 
 ---
