@@ -1,9 +1,8 @@
-// compiled from index.coffee
-import _ from 'lodash'
-import r from 'r-dom'
+const _ = require('lodash')
+const r = require('r-dom')
 ;
 // classNames
-export default function(tag, names, props, children) {
+module.exports = function(tag, names, props, children) {
   if (!_.isFunction(tag)) {
     return d(r.div, ...arguments);
   }

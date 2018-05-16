@@ -1,6 +1,6 @@
 {
   "name": "dr-dom",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "r-dom (React DOM) div wrapper",
   "main": "index.js",
   "scripts": {
@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/quangv/dr-dom/issues"
   },
-  "homepage": "https://github.com/quangv/dr-dom#readme"
+  "homepage": "https://github.com/quangv/dr-dom#readme",
+  "peerDependencies": {
+    "lodash": "^4.17.10",
+    "r-dom": "^2.4.0"
+  }
 }
